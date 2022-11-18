@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -71,6 +71,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.6, )"
+            },
+            "Newtonsoft.json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
