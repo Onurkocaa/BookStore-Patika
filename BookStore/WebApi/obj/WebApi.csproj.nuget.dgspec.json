@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\WebApi.csproj": {}
+    "c:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\WebApi.csproj": {
+    "c:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\WebApi.csproj",
+        "projectUniqueName": "c:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\WebApi.csproj",
+        "projectPath": "c:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\Webapi\\obj\\",
+        "outputPath": "c:\\Users\\ASUS\\Desktop\\pratikler\\BookStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
