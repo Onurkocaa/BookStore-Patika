@@ -11,7 +11,6 @@ C:\Users\ASUS\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\ASUS\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\ASUS\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\ASUS\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\ASUS\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\ASUS\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\ASUS\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\ASUS\Desktop\pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll

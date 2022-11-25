@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Application.BookOperations.Commands.CreateBook;
 using WebApi.Application.BookOperations.Commands.DeleteBook;
@@ -11,11 +8,12 @@ using WebApi.Application.BookOperations.Commands.UpdateBook;
 using WebApi.DbOperations;
 using static WebApi.Application.BookOperations.Commands.CreateBook.CreateBookCommand;
 using static WebApi.Application.BookOperations.Commands.UpdateBook.UpdateBookCommand;
-using FluentValidation.Results;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApi.AddControllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]s")]
     public class BookController: ControllerBase
