@@ -167,46 +167,48 @@ ile dışardan beklenir.
 ### TDD (Test-Driven Development)
 
 ```
-1. Tests dizini içinde Unit Test projesi yaratılır. 
+1."mkdir Tests" ile test dizin oluşturulur.
+
+2. Tests dizini içinde Unit Test projesi yaratılır. 
     dotnet new xunit -n WebApi.UnitTests
     
-2.Test projesi solutiona eklenir.
+3.Test projesi solutiona eklenir.
     cd ..
     dotnet sln add Tests/WebApi.UnitTests
-    
-3.Test projesine, test için ihtiyaç duyulan diğer projeler referansı eklenir.
-    cd Tests/WebApi.UnitTests
-    dotnet add reference ../../WebApi 
     
 4.Test projesine, test için ihtiyaç duyulan diğer projeler referansı eklenir.
     cd Tests/WebApi.UnitTests
     dotnet add reference ../../WebApi 
     
-5.Test projesine, test için ihtiyaç duyulan test kütüphaneleri eklenir. 
+5.Test projesine, test için ihtiyaç duyulan diğer projeler referansı eklenir.
+    cd Tests/WebApi.UnitTests
+    dotnet add reference ../../WebApi 
+    
+6.Test projesine, test için ihtiyaç duyulan test kütüphaneleri eklenir. 
 Mocking için Moq, assertions için FluentAssertions kullanacağız.
     dotnet add package Moq --version 4.16.1
     dotnet add package FluentAssertions --version 5.10.3
 
-6.Hazırlıklar tamam, solution re-build alalım.
+7.Hazırlıklar tamam, solution re-build alalım.
     cd ..
     cd ..
     dotnet clean
     dotnet build (WebApi.UnitTests de geldi)
     
-7.Henüz test yazmadan bir test edelim. Projeyi oluşturunca default gelen
+8.Henüz test yazmadan bir test edelim. Projeyi oluşturunca default gelen
 1 tane test var içi boş, bu yüzden passed olduğu için 1 passed test geliyor.
     dotnet test
     
-8.dotnet test komutu dışında VSCode'da ".NET Core Test Explorer" 
+9.dotnet test komutu dışında VSCode'da ".NET Core Test Explorer" 
 extensionı ile de gösterilebilir.
 
-9. Bağımlılık olmayan bir class için test eklenir. İsimlendirme ve AAA 
+10. Bağımlılık olmayan bir class için test eklenir. İsimlendirme ve AAA 
 şablonuna dikkat edilmeli. Tek bir koşul test edilmeli.
 
-10.Bağımlılık olan bir class için test eklenir. Taklit nesne (mocking) 
+11.Bağımlılık olan bir class için test eklenir. Taklit nesne (mocking) 
 gösterilir. Interface önemi.
 
-11.Belki örnek Theory gösterilebilir.
+12.Belki örnek Theory gösterilebilir.
 
 
 ```
